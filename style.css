@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+header {
+    background: #08015e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+nav {
+    text-align: right;
+    margin-left: 25px;
+}
+
+.logotipo {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logotipo span{
+    color: #686bff;
+}
+
+.curso {
+    text-decoration: none;
+    padding: 8px 14px;
+    font-weight: 500;
+    border-radius: 18px;
+    color: #fff;
+    background-color: #2f32fd;
+    transition: 0.7s;
+    cursor: pointer;
+    margin: 0px 30px 0px 0px;
+    font-family:'Josefin Sans', sans-serif;
+
+}
+.curso:hover {
+    background-color: #fff;
+    color:#2f32fd;
+}
+
+main {
+    display: flex;
+    background: #dadbfc;
+    height:500px;
+    padding: 20px;
+}
+
+.conteudo {
+    margin-top: 100px;
+    margin-left: 80px;
+    justify-content: space-between;
+    width: 570px;
+    height: 152px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#title {
+    font-size: 50px;
+    text-align: left;
+    color: #08015e;
+}
+
+
+#foto {
+    width: 500px;
+    margin-left: 170px;
+    margin-top: 28px;
+    margin-right: 60px;
+    transition: 2s;
+}
+
+#foto:hover {
+   filter:invert(100%);
+}
+
+footer {
+    background: #08015e;
+    height: 40px;
+    margin-top: auto;
+    padding: 5.5px;
+}
+
+#criado {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
